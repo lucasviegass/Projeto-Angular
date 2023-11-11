@@ -1,0 +1,43 @@
+.CaixaLista
+{
+    background-color: #fd9d9d;
+    height: auto;
+    width: 30vh;
+    border: solid 0.5vh #7c3939;
+    margin-left: 40%;
+}
+
+.ElementoLista{
+    color: #FFFF;
+    padding: 1vh;
+    font-family: Arial;
+    border-bottom: solid 0.4vh #7c3939;
+}
+
+/*Cor padrão dos elemntos de Lista*/
+.CorPadrao{
+    background-color: #996666;
+}
+.CorPadrao:hover{
+    background-color: #c9c9c9;
+}
+
+/*Cor alternativa dos elemntos de Lista*/
+.CorAlt{
+    background-color: #fd9d9d;
+}
+.CorAlt:hover{
+    background-color: #c9c9c9;
+}
+
+.dialog{
+    height: auto;
+    width: 50vh;
+    margin-left: 40%;
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2vh;
+    text-align: center;
+    margin-top: 4vh;
+    border-radius: 2vh;
+}

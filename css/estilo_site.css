@@ -1,0 +1,31 @@
+nav{
+    height: 4vh;
+    color: #a35f31;
+    margin-top: -1vh;
+    width: 100%;
+    background-color: #fabe96;
+    padding: 2vh;
+}
+
+nav ul {
+    position: absolute;
+    margin-top: 1vh;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    margin-left: 5vh;
+}
+ul li a{
+    text-decoration: none;
+    color: #a35f31;
+}
+.prodCard{
+    height: 10vh;
+    width: 10vh;
+    background-color: #fabe96;
+    color: #a35f31;
+    padding: 2vh;
+    margin-top: 5vh
+}

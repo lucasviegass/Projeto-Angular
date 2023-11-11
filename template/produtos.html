@@ -1,0 +1,17 @@
+<h1>Nossa loja de produtos</h1>
+<h3>Produtos da coleção deste ano</h3>
+
+<div ng-switch="ProdutoExistente">
+    <div ng-switch-when="false">
+        este produto não existe
+    </div>
+    <div ng-switch-when="true">
+        {{ProdutoEscolhido}}
+    </div>
+</div>
+
+<div ng-if="ProdutoEscolhido == undefined">
+<div class="prodCard" ng-repeat="x in ProdutosDisponiveis">
+        <h1>{{x}}</h1>
+    </div>
+</div>
